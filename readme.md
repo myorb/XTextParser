@@ -23,13 +23,18 @@ Word, Count,Total Broad Searches,Total Exact Searches
 
 
 Пример:
-input:
+
+input
+```
 окна киев,100
 окна харьков,50
 [окна киев],10
+```
 
-output:
+output
+```
 Word,Count,Total Broad Searches,Total Exact Searches
 окна,3,150,10
 киев,2,100,10
 харьков,1,50,0
+```
