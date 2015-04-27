@@ -22,16 +22,17 @@ Word, Count,Total Broad Searches,Total Exact Searches
 * **Total Exact Searches** - сумма значений колонки "Searches" для определённого слова (только для фраз с квадратными скобками)
 
 
-Пример:
+Пример
+------
 
-input
+###input
 ```
 окна киев,100
 окна харьков,50
 [окна киев],10
 ```
 
-output
+###output
 ```
 Word,Count,Total Broad Searches,Total Exact Searches
 окна,3,150,10
