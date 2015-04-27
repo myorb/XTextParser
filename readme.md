@@ -1,7 +1,7 @@
 Суть задания
 ------------
 
-Необходимо обработать файл searches.csv и показать результат в формате:
+Необходимо обработать файл *searches.csv* и показать результат в формате:
 
 ```
 Word, Count,Total Broad Searches,Total Exact Searches
