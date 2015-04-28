@@ -4,7 +4,7 @@
 Необходимо обработать файл *searches.csv* и показать результат в формате:
 
 ```
-Word, Count,Total Broad Searches,Total Exact Searches
+Word,Count,Total Broad Searches,Total Exact Searches
 киев,30,28374,10040
 окна,17,3827,1373
 ...
