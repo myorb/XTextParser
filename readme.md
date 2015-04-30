@@ -39,3 +39,5 @@ Word,Count,Total Broad Searches,Total Exact Searches
 киев,2,100,10
 харьков,1,50,0
 ```
+
+Обязательно придерживаться стандартов [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) и [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
