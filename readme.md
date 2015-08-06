@@ -44,6 +44,7 @@ Word,Count,Total Broad Searches,Total Exact Searches
 
 Использование
 ---------------
+```
 require 'Xparser.php'; 
 $file = 'searches.csv';
   
@@ -55,3 +56,4 @@ $text->writeResults();//or you can get results by getResults
 //php -r 'include "Xparser.php"; $c = new Xparser("searches.csv"); $c->writeResults();'
 
 echo '<br>'.(microtime(true)-$start).'<hr><br>'; 
+```
