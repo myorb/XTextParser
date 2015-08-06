@@ -41,3 +41,17 @@ Word,Count,Total Broad Searches,Total Exact Searches
 ```
 
 Обязательно придерживаться стандартов [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) и [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
+
+Использование
+---------------
+require 'Xparser.php'; 
+$file = 'searches.csv';
+  
+$start = microtime(true);
+
+$text = new Xparser ($file); 
+$text->writeResults();//or you can get results by getResults
+//for use from comand line write:
+//php -r 'include "Xparser.php"; $c = new Xparser("searches.csv"); $c->writeResults();'
+
+echo '<br>'.(microtime(true)-$start).'<hr><br>'; 
